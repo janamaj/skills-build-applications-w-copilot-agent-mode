@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg-info/
+
+# Environments
+.env
+
+# Logs
+*.log
