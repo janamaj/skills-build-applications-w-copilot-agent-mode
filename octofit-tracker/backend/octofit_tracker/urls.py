@@ -41,8 +41,11 @@ def api_root(request, format=None):
         'leaderboard': f'{base_url}/leaderboard/',
     })
 
+from django.views.generic import RedirectView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', api_root, name='api-root'),
     path('api/', include(router.urls)),
+    path('', RedirectView.as_view(url='api/', permanent=False)),
 ]
