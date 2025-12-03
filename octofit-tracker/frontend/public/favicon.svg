@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#2a5298"/>
+  
+  <!-- Yellow accent circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#ffc107" stroke-width="3"/>
+  
+  <!-- Octopus body (simplified) -->
+  <circle cx="100" cy="80" r="30" fill="#ffc107"/>
+  
+  <!-- Left eye -->
+  <circle cx="90" cy="75" r="6" fill="#2a5298"/>
+  <circle cx="92" cy="73" r="2" fill="white"/>
+  
+  <!-- Right eye -->
+  <circle cx="110" cy="75" r="6" fill="#2a5298"/>
+  <circle cx="112" cy="73" r="2" fill="white"/>
+  
+  <!-- Mouth (smile) -->
+  <path d="M 95 85 Q 100 88 105 85" stroke="#2a5298" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tentacles (8 of them) -->
+  <!-- Tentacle 1 (top-left) -->
+  <path d="M 80 105 Q 70 120 75 135" stroke="#ffc107" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tentacle 2 (left) -->
+  <path d="M 75 100 Q 55 105 50 125" stroke="#ffc107" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tentacle 3 (bottom-left) -->
+  <path d="M 85 115 Q 75 135 80 155" stroke="#ffc107" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tentacle 4 (bottom) -->
+  <path d="M 100 115 Q 100 140 100 160" stroke="#ffc107" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tentacle 5 (bottom-right) -->
+  <path d="M 115 115 Q 125 135 120 155" stroke="#ffc107" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tentacle 6 (right) -->
+  <path d="M 125 100 Q 145 105 150 125" stroke="#ffc107" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tentacle 7 (top-right) -->
+  <path d="M 120 105 Q 130 120 125 135" stroke="#ffc107" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Tentacle 8 (top) -->
+  <path d="M 100 50 Q 100 30 100 15" stroke="#ffc107" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Center circle decoration -->
+  <circle cx="100" cy="100" r="5" fill="#ffc107"/>
+</svg>
